@@ -1,40 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imran Maslianov - CV</title>
+    <link rel="stylesheet" href="style/styles.css">
 </head>
 <body>
     <header>
-        <img src="randomPic.jpeg" alt="Imran Maslianov">
+        <svg class="header-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 200">
+            <path d="M 0,100 C 150,200 350,0 500,100 L 500,200 L 0,200"></path>
+        </svg>
+        <img src="assets/randomPic.jpeg" alt="Imran Maslianov">
         <h1>Imran Maslianov</h1>
-        <p>3168 boul. Chèvremont, H9C2W5 | +1(438)408-5713 | maslianov.imran@gmail.com</p>
-    </header>    
+        <p>3168 boul. Chèvremont, H9C2W5 | +1(438) 408-5713 | maslianov.imran@gmail.com</p>
+    </header>
     <section id="resume">
-        <h2>Objectif</h2>
-        <p>Motivated and reliable individual with experience in cash register operation, merchandise 
-            handling, and a proven track record of delivering excellent customer service. Highly organized, 
-            proactive, and punctual. Seeking an internship opportunity in Computer Science to leverage 
-            my technical skills, problem-solving abilities, and enthusiasm for learning.
-        </p>
+        <h2>Objective</h2>
+        <p>Motivated and reliable individual with experience in cash register operation, merchandise handling, and a proven track record of delivering excellent customer service. Highly organized, proactive, and punctual. Seeking an internship opportunity in Computer Science to leverage my technical skills, problem-solving abilities, and enthusiasm for learning.</p>
     </section>
     <section id="education">
         <h2>Education</h2>
-        <p>08/2021	En cours | Techniques de l’informatique | Collège Vanier | Saint-Laurent, QC</p>
-        <p>06/2021 	DES | École Secondaire des Sources | Dollard-Des-Ormeaux, QC </p>
+        <p>08/2021 - Present | Computer Science Techniques | Collège Vanier | Saint-Laurent, QC</p>
+        <p>06/2021 | High School Diploma | École Secondaire des Sources | Dollard-Des-Ormeaux, QC</p>
     </section>
     <section id="experience">
         <h2>Work Experience</h2>
-        <h3>03/2020- 04/2022</h3>
-        <p> Associé-caissier, Winners | Kirkland, QC
-            ·	Engager positivement avec chaque client, fournissant un soutien professionnel et poli pour les besoins de vente et de service.
-            ·	Gérer les opérations de caisse à l'aide du système de point de vente et traiter les ventes et les retours.
-            ·	Appliquer de solides mesures en résolution de problèmes et en relations interpersonnelles pour résoudre les conflits.
-        </p>
-        <h3>05/22- 04/2023</h3>
-        <p>Assistant-Professeur, Nemesis | Pointe-Claire, QC
-            ·	Fourni une assistance individualisée aux élèves ayant des besoins spéciaux en classe. Facilité l'instruction en petits groupes et les activités pour des élèves de niveaux de compétence variés.
-            ·	Aidé à créer et à maintenir un environnement d'apprentissage sûr et ordonné.
-        </p>
+        <div class="job">
+            <h3>03/2020 - 04/2022</h3>
+            <h4>Associate Cashier, Winners | Kirkland, QC</h4>
+            <ul>
+                <li>Engaged positively with each customer, providing professional and polite sales and service support.</li>
+                <li>Managed cash register operations using the Point of Sale system and processed sales and returns.</li>
+                <li>Applied strong problem-solving and interpersonal skills to resolve conflicts.</li>
+            </ul>
+        </div>
+        <div class="job">
+            <h3>05/22 - 04/2023</h3>
+            <h4>Assistant Professor, Nemesis | Pointe-Claire, QC</h4>
+            <ul>
+                <li>Provided individualized assistance to students with special needs in the classroom.</li>
+                <li>Facilitated instruction in small groups and activities for students with varying skill levels.</li>
+                <li>Helped create and maintain a safe and orderly learning environment.</li>
+            </ul>
+        </div>
     </section>
     <section id="skills">
         <h2>Skills</h2>
@@ -51,7 +60,7 @@
             <div class="skills-column">
                 <h3>Technical Skills</h3>
                 <ul>
-                    <li>Java, C++, Html, CSS, JS, and Python</li>
+                    <li>Java, C++, HTML, CSS, JS, and Python</li>
                     <li>Computer Proficiency</li>
                     <li>Customer Assistance</li>
                     <li>POS (Point of Sale) Operating System</li>
@@ -63,7 +72,6 @@
         <h2>Github</h2>
         <p>GitHub Profile: <a href="https://github.com/imro1">https://github.com/imro1</a></p>
     </section>
-    
     <section id="languages">
         <h2>Languages</h2>
         <ul>
@@ -73,75 +81,10 @@
             <li>Traditional Mandarin</li>
         </ul>
     </section>
-    
 </body>
 </html>
 
 
-<style>
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f5f5f5;
-    margin: 0;
-    padding: 0;
-}
 
-header {
-    background-color: #007BFF;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
 
-header img {
-    width: 150px; /* Adjust the width as needed */
-    height: 190px; /* Maintain aspect ratio */
-    border-radius: 50%; /* Rounded image (optional) */
-    margin: 5px; /* Add margin for spacing */
-}
 
-h1 {
-    font-size: 2.5em;
-    margin: 0;
-}
-
-h2 {
-    font-size: 1.5em;
-    color: #007BFF;
-}
-
-section {
-    margin: 14px;
-    padding: 15px;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-.skills-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Two equal columns */
-    grid-column-gap: 20px; /* Adjust the gap between columns as needed */
-}
-
-.skills-column ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.skills-column ul li {
-    margin-bottom: 10px;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-ul li {
-    margin-bottom: 10px;
-}
-
-/* Add more styles for links, contact info, and other elements as needed */
-
-</style>
